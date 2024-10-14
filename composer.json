@@ -18,11 +18,17 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://www.setasign.com/downloads/"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": ">=5.0",
         "setasign/fpdf": "1.8.*",
-        "setasign/fpdi": "^2.0"
+        "setasign/fpdi_pdf-parser_eval_ioncube_php8.2": "2.1.3"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",
