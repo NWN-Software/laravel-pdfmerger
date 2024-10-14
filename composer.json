@@ -60,5 +60,7 @@
                 "PDFMerger": "Webklex\\PDFMerger\\Facades\\PDFMergerFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
